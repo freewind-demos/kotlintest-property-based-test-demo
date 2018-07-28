@@ -1,6 +1,6 @@
-KotlinTest Demo
-===============
+KotlinTest Property Based Testing Demo
+======================================
 
-Try [KotlinTest](https://github.com/kotlintest/kotlintest).
+Try "property based testing" of [KotlinTest](https://github.com/kotlintest/kotlintest).
 
 See `HelloTest.kt`.

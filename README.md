@@ -1,4 +1,6 @@
-Kotlin Hello World Demo
-=======================
+KotlinTest Demo
+===============
 
-Hello world from kotlin. Open it in IDE and run `Hello.kt`
+Try [KotlinTest](https://github.com/kotlintest/kotlintest).
+
+See `HelloTest.kt`.

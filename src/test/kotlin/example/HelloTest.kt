@@ -1,13 +1,12 @@
 package example
 
-import org.assertj.core.api.Assertions.assertThat
-import org.junit.Test
+import io.kotlintest.shouldBe
+import io.kotlintest.specs.StringSpec
 
-class HelloTest {
+class HelloTest : StringSpec({
 
-    @Test
-    fun `hello returns greeting words`() {
-        assertThat(hello("you")).isEqualTo("Hello, you!")
+    "length should return the size of string" {
+        hello("KotlinTest") shouldBe "Hello, KotlinTest!"
     }
 
-}
+})
